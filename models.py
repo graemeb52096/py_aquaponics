@@ -25,7 +25,7 @@ class Sensor:
         self.value = value
 
 
-class Thermometer(Sensor):
+class Temperature(Sensor):
     def get_temp(self):
         return self.value/1000
 
